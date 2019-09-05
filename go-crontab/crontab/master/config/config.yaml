@@ -1,0 +1,17 @@
+api:
+  apiPort: "8070"
+  apiReadTimeout: "5000"
+  apiWriteTimeout: "5000"
+
+etcd:
+  etcdEndPoints:
+  - "10.20.1.185:2379"
+  etcdDialTimeout: "5000"
+
+mongodb:
+  mongodbUri: "mongodb://10.20.1.185:27017"
+  mongodbConnectTimeout: "5000"
+
+mode: "debug"
+
+
